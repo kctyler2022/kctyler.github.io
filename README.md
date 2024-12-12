@@ -28,7 +28,48 @@ Hosting: Amazon S3, Amazon CloudFront
 CI/CD: AWS Amplify, AWS CodePipeline, AWS CodeBuild
 Others: AWS Route 53 (DNS), AWS Certificate Manager (SSL/TLS)
 Folder Structure
-awsarchitectadventures/ │ ├── src/ │ ├── assets/ │ │ ├── images/ │ │ ├── css/ │ │ │ └── styles.css │ │ ├── js/ │ │ │ └── scripts.js │ │ └── fonts/ │ ├── content/ │ │ ├── blog/ │ │ ├── podcast/ │ │ └── aws-utah/ │ ├── templates/ │ │ ├── partials/ │ │ │ ├── header.html │ │ │ ├── footer.html │ │ │ └── nav.html │ │ ├── index.html │ │ ├── blog.html │ │ ├── podcast.html │ │ ├── aws-utah.html │ │ └── resume.html │ └── scripts/ │ └── markdown_to_html.py │ ├── build/ │ ├── assets/ │ │ ├── images/ │ │ ├── css/ │ │ │ └── styles.css │ │ ├── js/ │ │ │ └── scripts.js │ │ └── fonts/ │ ├── blog/ │ │ └── index.html │ ├── podcast/ │ │ └── index.html │ ├── aws-utah/ │ │ └── index.html │ ├── index.html │ ├── blog.html │ ├── podcast.html │ ├── aws-utah.html │ └── resume.html │ ├── amplify/ │ ├── .config/ │ ├── backend/ │ ├── team-provider-info.json │ ├── .gitignore ├── amplify.yml ├── package.json ├── README.md
+thewizardofaws.github.io/
+│
+├── _config.yml
+├── index.md
+├── about.md
+├── projects.md
+├── blog.md
+├── resources.md
+├── podcast.md
+├── contact.md
+│
+├── _posts/
+│   ├── 2024-12-12-welcome-to-my-blog.md
+│   └── 2024-12-13-aws-certification-tips.md
+│
+├── _drafts/
+│   └── future-post-ideas.md
+│
+├── assets/
+│   ├── css/
+│   │   └── main.css
+│   ├── images/
+│   │   ├── profile-picture.jpg
+│   │   └── aws-cert-badges/
+│   └── js/
+│       └── main.js
+│
+├── _includes/
+│   ├── header.html
+│   ├── footer.html
+│   ├── social-links.html
+│   └── youtube-embed.html
+│
+├── _layouts/
+│   ├── default.html
+│   ├── post.html
+│   └── page.html
+│
+└── _data/
+    ├── navigation.yml
+    └── projects.yml
+
 
 Getting Started
 Prerequisites
