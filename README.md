@@ -8,6 +8,7 @@ I'm KC Tyler, a Senior DevOps Engineer specializing in AWS cloud architecture, P
 
 ## Website Structure
 
+```plaintext
 thewizardofaws.github.io/
 │
 ├── _config.yml
@@ -49,7 +50,7 @@ thewizardofaws.github.io/
 └── _data/
     ├── navigation.yml
     └── projects.yml
-
+```
 
 ## Connect With Me
 
