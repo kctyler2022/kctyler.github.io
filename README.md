@@ -1,33 +1,13 @@
-# thewizardofaws.github.io
+# The Wizard of AWS
 
-The Wizard of AWS
-Welcome to the repository for The Wizard of AWS! This project is designed to grow my personal brand as an AWS evangelist, featuring a blog, podcast, and more. The website is hosted on AWS as a serverless static website.
+Welcome to the GitHub repository for The Wizard of AWS website. This site serves as a hub for AWS expertise, DevOps insights, and cloud innovation.
 
-Table of Contents
-Project Overview
-Tech Stack
-Folder Structure
-Getting Started
-Deployment
-Contributing
-License
-Project Overview
-AWS Architect Adventures is a personal website that includes:
+## About Me
 
-Home Page: An overview of the latest blog posts and podcast episodes.
-Podcast Page: A list of podcast episodes with descriptions and links.
-Blog Page: A collection of blog posts with summaries and links.
-AWS Utah Page: Information about the AWS Utah user group.
-Resume Page: My professional resume and career highlights.
-The website is designed to be fully serverless, leveraging various AWS services for hosting, content delivery, and more.
+I'm KC Tyler, a Senior DevOps Engineer specializing in AWS cloud architecture, Python, Terraform, and cloud migrations. As the leader of the AWS Utah User Group, I'm passionate about AWS evangelism and focus on distributed systems, serverless solutions, and generative AI.
 
-Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: AWS Lambda (for content processing)
-Hosting: Amazon S3, Amazon CloudFront
-CI/CD: AWS Amplify, AWS CodePipeline, AWS CodeBuild
-Others: AWS Route 53 (DNS), AWS Certificate Manager (SSL/TLS)
-Folder Structure
+## Website Structure
+
 thewizardofaws.github.io/
 │
 ├── _config.yml
@@ -71,45 +51,24 @@ thewizardofaws.github.io/
     └── projects.yml
 
 
-Getting Started
-Prerequisites
-Node.js and npm installed
-AWS CLI installed and configured
-Amplify CLI installed and configured
-Installation
-Clone the repository:
+## Connect With Me
 
-git clone https://github.com/your-username/awsarchitectadventures.git
-cd awsarchitectadventures
-Install dependencies:
+- [LinkedIn](https://www.linkedin.com/in/thewizardofaws/)
+- [YouTube](https://www.youtube.com/@thewizardofaws)
+- [Instagram](https://www.instagram.com/thewizardofaws/)
+- [TikTok](https://www.tiktok.com/@thewizardofaws)
+- [Twitch](https://www.twitch.tv/thewizardofaws)
 
-npm install
-Initialize Amplify:
+## Current Projects
 
-amplify init
-Add hosting:
+- Building this website to replace Linktree and serve as a central hub for all my content
+- Developing AWS-focused projects, tutorials, and guides
+- Preparing content for the AWS Utah User Group
 
-amplify add hosting
-amplify publish
-Deployment
-Build Process
-Build the project:
+## Future Plans
 
-Use a build tool to process the source files in src/ and output the final files into the build/ directory.
+- Launch a podcast focusing on AWS innovations and best practices
+- Publish a book on AWS architecture and DevOps practices
+- Develop open-source tools for AWS environment management
 
-Example using a custom script:
-
-npm run build
-Deploy to S3:
-
-Use the AWS CLI to sync the contents of the build/ directory to the S3 bucket.
-
-aws s3 sync build/ s3://awsarchitectadventures.com/ --delete
-Invalidate CloudFront Cache:
-
-Invalidate the CloudFront cache to ensure the latest changes are reflected.
-
-aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
-Contributing
-Contributions are welcome! Please read the CONTRIBUTING.md file for details on how to contribute.
-
+Stay tuned for updates and new content!
