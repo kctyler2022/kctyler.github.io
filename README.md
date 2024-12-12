@@ -1,7 +1,7 @@
-# kctyler.github.io
+# thewizardofaws.github.io
 
-AWS Architect Adventures
-Welcome to the repository for AWS Architect Adventures! This project is designed to grow my personal brand as an AWS evangelist, featuring a blog, podcast, and more. The website is hosted on AWS as a serverless static website.
+The Wizard of AWS
+Welcome to the repository for The Wizard of AWS! This project is designed to grow my personal brand as an AWS evangelist, featuring a blog, podcast, and more. The website is hosted on AWS as a serverless static website.
 
 Table of Contents
 Project Overview
